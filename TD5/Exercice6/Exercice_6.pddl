@@ -1,0 +1,18 @@
+(
+	define (problem singe-bananes01)
+	(:domain SINGE)
+	(:objects A B C)
+	(:INIT 	(PosSing A)
+			(PosCaisse B) 
+			(PosBanane C)
+			(PosInit A)
+			(Bas) 
+			(not(Haut))
+			(not(HasBananas))
+			(HandEmpty)
+	)
+	(:goal 	(AND	(HasBananas)
+
+			)
+	)
+)

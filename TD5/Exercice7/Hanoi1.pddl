@@ -1,0 +1,18 @@
+(
+	define (problem hanoi1)
+	(:domain hanoi)
+	(:objects p1 p2 p3 d1)
+	(:init
+			(smaller d1 p1)		
+			(smaller d1 p2)
+			(smaller d1 p3)			
+			(clearDisk d1)			
+			(clearPeg p2)
+			(clearPeg p3)
+			(onPeg d1 p1)
+			(PinceFree)
+	)
+	(:goal 	(and	(onPeg d1 p3)
+			)
+	)
+)

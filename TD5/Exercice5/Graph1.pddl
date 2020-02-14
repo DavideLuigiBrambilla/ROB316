@@ -1,0 +1,5 @@
+(define (problem graph)
+(:domain graph)
+(:objects A B C D E F G H I)
+(:INIT (ON A) (ARC A B) (ARC B A) (ARC B C) (ARC C B) (ARC C F) (ARC F C) (ARC E I) (ARC I E) (ARC G H) (ARC H G) (ARC G E) (ARC E G) (ARC D G) (ARC G D) (ARC A D) (ARC D A))
+(:goal (AND (ON I))))
